@@ -2,6 +2,7 @@
 include 'login.php';
 include 'contents.php';
 
+$admin = 610569681;
 $i_BRK = $admin; 
 $x_BRK = file_get_contents("x_BRK.txt");
 $x_BRK0 = file_get_contents("x_BRK0.txt");
