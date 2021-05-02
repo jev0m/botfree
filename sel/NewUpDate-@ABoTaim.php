@@ -11,7 +11,7 @@
 ---------------{@ABoTaim}------------
 */
 ob_start();
-$token = 'token';
+$token = '1629685400:AAEji0PYUbGjA2FNoZUGJoMKuft5TJNCXGo';
 define('API_KEY',$token);
 function bot($method,$datas=[]){
   $url = "https://api.telegram.org/bot".API_KEY."/".$method;
